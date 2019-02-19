@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           elementFormDefault="qualified">
+
+    <!-- Ano -->
+
+    <xs:simpleType name="TAno">
+        <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9]{4}"/>
+            <xs:pattern value="[0-9]{4}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Lotacao -->
+
+    <xs:simpleType name="TLotacao">
+        <xs:restriction base="xs:integer">
+            <xs:pattern value="[1-9]{1}[0-9]*"/>
+            <xs:pattern value="[1-9]{1}[0-9]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Telefone -->
+
+    <xs:simpleType name="TTelefone">
+        <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9]{9}"/>
+            <xs:pattern value="[0-9]{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Tipo de Seguro -->
+
+	<xs:simpleType name="TTipoSeguro">
+		<xs:restriction base="xs:token">
+			<xs:whiteSpace value="collapse"/>
+			<xs:enumeration value="NAUFRAGIO"/>
+			<xs:enumeration value="TEMPESTADE"/>
+			<xs:enumeration value="INCENDIO"/>
+			<xs:enumeration value="ROUBO"/>
+			<xs:enumeration value="DANOS"/>
+			<xs:enumeration value="VANDALISMO"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+    <!-- Currency -->
+
+	<xs:simpleType name="TCurrency">
+		<xs:restriction base="xs:token">
+			<xs:whiteSpace value="collapse"/>
+			<xs:enumeration value="EUR"/>
+			<xs:enumeration value="USD"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

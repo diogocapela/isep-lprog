@@ -1,0 +1,279 @@
+
+================================================================================================================
+
+                              SEGURADORA: Boat Security Insurance, Ltd
+
+================================================================================================================
+
+
+
+========================================================
+                          BARCOS
+========================================================
+Barco id: 1
+--------------------------------------------------------
+Nome: Atlantis II
+Modelo: Gobbi Atlantis 47
+Ano: 2002
+Lotação: 10
+Preço: 21000 EUR
+Categoria: Sailing
+Marina: Vilamoura
+Imagem:  altTag Imagem 1, url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Motorboat_at_Kankaria_lake.JPG
+
+--------------------------------------------------------
+Barco id: 2
+--------------------------------------------------------
+Nome: ISEP
+Modelo: Master race
+Ano: 1990
+Lotação: 8
+Preço: 12000 USD
+Categoria: Motor
+Marina: Freixo
+Imagem:  altTag Imagem 2, url: https://d1elspe5sgezyc.cloudfront.net/assets/v3/home/owners/power1-0ad9b4fec1eea01588b77f0948503152.jpg
+
+--------------------------------------------------------
+Barco id: 3
+--------------------------------------------------------
+Nome: TRIMIX
+Modelo: Yamaha
+Ano: 2013
+Lotação: 25
+Preço: 19000 USD
+Categoria: Motor
+Marina: Freixo
+Imagem:  altTag Imagem 3, url: https://auto8.imgs.sapo.pt/0474/00000474/v/0020/002027020/1370x1053/Dynasty-180-104473810.jpg
+
+--------------------------------------------------------
+Barco id: 4
+--------------------------------------------------------
+Nome: THAYADA
+Modelo: J.S. El cano
+Ano: 1999
+Lotação: 9
+Preço: 8300 USD
+Categoria: Motor
+Marina: Freixo
+Imagem:  altTag Imagem 3, url: https://auto8.imgs.sapo.pt/0917/00000917/v/0290/002077290/1370x1053/SEA-RAY-220-SD-94457559.jpg
+
+--------------------------------------------------------
+Barco id: 5
+--------------------------------------------------------
+Nome: TAPAJOS
+Modelo: Black pearl
+Ano: 2008
+Lotação: 4
+Preço: 9000 USD
+Categoria: Motor
+Marina: Freixo
+Imagem:  altTag Imagem 3, url: https://vignette.wikia.nocookie.net/pirates/images/6/62/Black_Pearl_infobox.png/revision/latest?cb=20171110192901
+
+--------------------------------------------------------
+Barco id: 6
+--------------------------------------------------------
+Nome: FERET
+Modelo: Escuna comerciante
+Ano: 2002
+Lotação: 30
+Preço: 10000 USD
+Categoria: Motor
+Marina: Freixo
+Imagem:  altTag Escuna comerciante, url: https://c.pxhere.com/photos/99/a3/sloop_angra_kings-499615.jpg!d
+
+--------------------------------------------------------
+Barco id: 7
+--------------------------------------------------------
+Nome: STARFLY
+Modelo: Caravel
+Ano: 1992
+Lotação: 12
+Preço: 12000 USD
+Categoria: Motor
+Marina: Freixo
+Imagem:  altTag Caravel, url: https://www.turismodoalgarve.pt/upload_files/client_id_1/website_id_3/Caravela%20Boa%20Esperança/DSC06850.JPG
+
+--------------------------------------------------------
+Barco id: 8
+--------------------------------------------------------
+Nome: ROSA DE SARON
+Modelo: Cruise Critic
+Ano: 2018
+Lotação: 370
+Preço: 353829 USD
+Categoria: Motor
+Marina: Freixo
+Imagem:  altTag Cruise Critic, url: https://images.cruisecritic.com/image/7681/image_1000x_43.jpg
+
+--------------------------------------------------------
+Barco id: 9
+--------------------------------------------------------
+Nome: PAPUQ YA YA
+Modelo: Dynasty
+Ano: 1992
+Lotação: 8
+Preço: 19000 USD
+Categoria: Motor
+Marina: Freixo
+Imagem:  altTag Dynasty, url: https://img.letgo.com/images/fb/79/e9/ba/fb79e9ba4acc870e612e9b38491d5870.jpg?impolicy=img_600
+
+--------------------------------------------------------
+Barco id: 10
+--------------------------------------------------------
+Nome: MARAMAR
+Modelo: Kawasaki
+Ano: 2019
+Lotação: 2
+Preço: 23000 USD
+Categoria: Motor
+Marina: Freixo
+Imagem:  altTag Kawasaki, url: https://www.nationalboatcovers.com/web/source/nbc/uploads/tinymce/files/manufacturerpage/images/kawaski.png
+
+--------------------------------------------------------
+
+
+========================================================
+                          MARINAS
+========================================================
+Marina id: 1
+--------------------------------------------------------
+Nome: Freixo
+Descrição: Eu sou a marina do Freixo.
+--------------------------------------------------------
+Marina id: 2
+--------------------------------------------------------
+Nome: Vilamoura
+Descrição: Eu sou a marina número 2.
+--------------------------------------------------------
+Marina id: 3
+--------------------------------------------------------
+Nome: Afurada
+Descrição: Eu sou a marina da Afurada.
+--------------------------------------------------------
+
+
+========================================================
+                          SEGUROS
+========================================================
+Seguro id: 1
+--------------------------------------------------------
+Tipo: TEMPESTADE
+Descrição: Seguro contra tempestades.
+Preço: 500 EUR
+--------------------------------------------------------
+Seguro id: 2
+--------------------------------------------------------
+Tipo: NAUFRAGIO
+Descrição: Seguro contra naufágios.
+Preço: 1000 EUR
+--------------------------------------------------------
+Seguro id: 3
+--------------------------------------------------------
+Tipo: INCENDIO
+Descrição: Seguro contra incêndios.
+Preço: 2500 EUR
+--------------------------------------------------------
+Seguro id: 4
+--------------------------------------------------------
+Tipo: ROUBO
+Descrição: Seguro contra roubos.
+Preço: 3500 EUR
+--------------------------------------------------------
+Seguro id: 5
+--------------------------------------------------------
+Tipo: DANOS
+Descrição: Seguro contra danos.
+Preço: 550 EUR
+--------------------------------------------------------
+Seguro id: 6
+--------------------------------------------------------
+Tipo: VANDALISMO
+Descrição: Seguro contra vandalos.
+Preço: 130 EUR
+--------------------------------------------------------
+
+
+========================================================
+                          CLIENTES
+========================================================
+Cliente id: 1
+--------------------------------------------------------
+Nome: Diogo
+Email: dasds@dasda.com
+Telefone: 123123123
+Idade: 28
+
+Carteiras de Seguros
+--------------------
+Carteira seguro: idSeguro1, idBarco2
+Carteira seguro: idSeguro3, idBarco1
+Carteira seguro: idSeguro5, idBarco6
+
+Ocorrências
+-----------
+º Ocorrência:
+  Id Barco: 1
+  Tipo de catástrofe: TEMPESTADE
+  Data: 2018/5/23
+
+Total de ocorrencias: 1
+
+--------------------------------------------------------
+Cliente id: 2
+--------------------------------------------------------
+Nome: Teresa
+Email: pipocas@abelha.com
+Telefone: 147147147
+Idade: 36
+
+Carteiras de Seguros
+--------------------
+Carteira seguro: idSeguro1, idBarco1
+Carteira seguro: idSeguro2, idBarco1
+Carteira seguro: idSeguro3, idBarco1
+
+Ocorrências
+-----------
+º Ocorrência:
+  Id Barco: 1
+  Tipo de catástrofe: TEMPESTADE
+  Data: 2018/5/23
+º Ocorrência:
+  Id Barco: 1
+  Tipo de catástrofe: TEMPESTADE
+  Data: 2018/5/23
+
+Total de ocorrencias: 2
+
+--------------------------------------------------------
+Cliente id: 3
+--------------------------------------------------------
+Nome: Vítor
+Email: motas@toy.com
+Telefone: 789488885
+Idade: 23
+
+Carteiras de Seguros
+--------------------
+Carteira seguro: idSeguro1, idBarco3
+Carteira seguro: idSeguro2, idBarco3
+Carteira seguro: idSeguro3, idBarco3
+
+Ocorrências
+-----------
+º Ocorrência:
+  Id Barco: 1
+  Tipo de catástrofe: TEMPESTADE
+  Data: 2018/5/23
+º Ocorrência:
+  Id Barco: 1
+  Tipo de catástrofe: TEMPESTADE
+  Data: 2019/5/23
+º Ocorrência:
+  Id Barco: 1
+  Tipo de catástrofe: TEMPESTADE
+  Data: 2020/5/23
+
+Total de ocorrencias: 3
+
+--------------------------------------------------------

@@ -1,0 +1,150 @@
+<ReisPortugal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:/ANATRAB/2010-2011/Pedagógico/LPROG/Aulas/PL/PL6%20e%207/reis.xsd">
+    <Dinastia Nome="Primeira Dinastia - de Borgonha ou Afonsina">
+        <Rei Cognome="O Lavrador">
+            <Nome>Dom Dinis I</Nome>
+            <Reinado AnoInicio="1279" AnoFim="1325"/>
+        </Rei>
+        <Rei Cognome="O Povoador">
+            <Nome>Dom Sancho I</Nome>
+            <Reinado AnoInicio="1185" AnoFim="1211"/>
+        </Rei>
+        <Rei Cognome="O Justiceiro">
+            <Nome>Dom Pedro I</Nome>
+            <Reinado AnoInicio="1357" AnoFim="1367"/>
+        </Rei>
+        <Rei Cognome="O Capelo">
+            <Nome>Dom Sancho II</Nome>
+            <Reinado AnoInicio="1233" AnoFim="1247"/>
+        </Rei>
+        <Rei Cognome="O Conquistador">
+            <Nome>Dom Afonso I</Nome>
+            <Reinado AnoInicio="1139" AnoFim="1185"/>
+        </Rei>
+        <Rei Cognome="O Bolonhes">
+            <Nome>Dom Afonso III</Nome>
+            <Reinado AnoInicio="1248" AnoFim="1279"/>
+        </Rei>
+        <Rei Cognome="O Bravo">
+            <Nome>Dom Afonso IV</Nome>
+            <Reinado AnoInicio="1325" AnoFim="1357"/>
+        </Rei>
+        <Rei Cognome="O Formoso">
+            <Nome>Dom Fernando I</Nome>
+            <Reinado AnoInicio="1367" AnoFim="1383"/>
+        </Rei>
+        <Rei Cognome="O Gordo">
+            <Nome>Dom Afonso II</Nome>
+            <Reinado AnoInicio="1211" AnoFim="1233"/>
+        </Rei>
+    </Dinastia>
+    <Dinastia Nome="Segunda Dinastia - de Avis ou Joanina">
+        <Rei Cognome="O de Boa Memoria">
+            <Nome>Dom Joao I</Nome>
+            <Reinado AnoInicio="1385" AnoFim="1433"/>
+        </Rei>
+        <Rei Cognome="O Eloquente">
+            <Nome>Dom Duarte I</Nome>
+            <Reinado AnoInicio="1433" AnoFim="1438"/>
+        </Rei>
+        <Rei Cognome="O Africano">
+            <Nome>Dom Afonso V</Nome>
+            <Reinado AnoInicio="1438" AnoFim="1481"/>
+        </Rei>
+        <Rei Cognome="O Principe Perfeito">
+            <Nome>Dom Joao II</Nome>
+            <Reinado AnoInicio="1481" AnoFim="1495"/>
+        </Rei>
+        <Rei Cognome="O Venturoso">
+            <Nome>Dom Manuel I</Nome>
+            <Reinado AnoInicio="1495" AnoFim="1521"/>
+        </Rei>
+        <Rei Cognome="O Piedoso">
+            <Nome>Dom Joao III</Nome>
+            <Reinado AnoInicio="1521" AnoFim="1557"/>
+        </Rei>
+        <Rei Cognome="O Desejado">
+            <Nome>Dom Sebastiao</Nome>
+            <Reinado AnoInicio="1557" AnoFim="1578"/>
+        </Rei>
+        <Rei Cognome="O Casto">
+            <Nome>Dom Henrique I</Nome>
+            <Reinado AnoInicio="1578" AnoFim="1580"/>
+        </Rei>
+        <Rei Cognome="Prior do Crato">
+            <Nome>Dom Antonio I</Nome>
+            <Reinado AnoInicio="1580" AnoFim="1583"/>
+        </Rei>
+    </Dinastia>
+    <Dinastia Nome="Terceira Dinastia - Filipina, Castelhana ou de Habsburgo">
+        <Rei Cognome="O Prudente">
+            <Nome>Dom Filipe I</Nome>
+            <Reinado AnoInicio="1581" AnoFim="1598"/>
+        </Rei>
+        <Rei Cognome="O Pio">
+            <Nome>Dom Filipe II</Nome>
+            <Reinado AnoInicio="1598" AnoFim="1621"/>
+        </Rei>
+        <Rei Cognome="O Grande">
+            <Nome>Dom Filipe III</Nome>
+            <Reinado AnoInicio="1621" AnoFim="1640"/>
+        </Rei>
+    </Dinastia>
+    <Dinastia Nome="Quarta Dinastia - de Braganca ou Brigantina">
+        <Rei Cognome="O Restaurador">
+            <Nome>Dom Joao IV</Nome>
+            <Reinado AnoInicio="1640" AnoFim="1656"/>
+        </Rei>
+        <Rei Cognome="O Vitorioso">
+            <Nome>Dom Afonso VI</Nome>
+            <Reinado AnoInicio="1656" AnoFim="1675"/>
+        </Rei>
+        <Rei Cognome="O Pacifico">
+            <Nome>Dom Pedro II</Nome>
+            <Reinado AnoInicio="1675" AnoFim="1706"/>
+        </Rei>
+        <Rei Cognome="O Magnanimo">
+            <Nome>Dom Joao V</Nome>
+            <Reinado AnoInicio="1707" AnoFim="1750"/>
+        </Rei>
+        <Rei Cognome="O Reformador">
+            <Nome>Dom Jose I</Nome>
+            <Reinado AnoInicio="1750" AnoFim="1777"/>
+        </Rei>
+        <Rei Cognome="A Piedosa">
+            <Nome>Dona Maria I</Nome>
+            <Reinado AnoInicio="1777" AnoFim="1816"/>
+        </Rei>
+        <Rei Cognome="O Clemente">
+            <Nome>Dom Joao VI</Nome>
+            <Reinado AnoInicio="1816" AnoFim="1826"/>
+        </Rei>
+        <Rei Cognome="O Rei Soldado">
+            <Nome>Dom Pedro IV</Nome>
+            <Reinado AnoInicio="1826" AnoFim="1826"/>
+        </Rei>
+        <Rei Cognome="A Educadora">
+            <Nome>Dona Maria II</Nome>
+            <Reinado AnoInicio="1826" AnoFim="1853"/>
+        </Rei>
+        <Rei Cognome="O Absoluto">
+            <Nome>Dom Miguel I</Nome>
+            <Reinado AnoInicio="1828" AnoFim="1834"/>
+        </Rei>
+        <Rei Cognome="O Esperancoso">
+            <Nome>Dom Pedro V</Nome>
+            <Reinado AnoInicio="1853" AnoFim="1861"/>
+        </Rei>
+        <Rei Cognome="O Popular">
+            <Nome>Dom Luis I</Nome>
+            <Reinado AnoInicio="1861" AnoFim="1889"/>
+        </Rei>
+        <Rei Cognome="O Diplomata">
+            <Nome>Dom Carlos I</Nome>
+            <Reinado AnoInicio="1889" AnoFim="1908"/>
+        </Rei>
+        <Rei Cognome="O Patriota">
+            <Nome>Dom Manuel II</Nome>
+            <Reinado AnoInicio="1908" AnoFim="1910"/>
+        </Rei>
+    </Dinastia>
+</ReisPortugal>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Turma Id="2DA">
+    <Professor Sigla="JSM">
+        <Nome>José Avelino da Silva Marinho</Nome>
+        <Email>jsm@isep.ipp.pt</Email>
+        <Gab>B307</Gab>
+    </Professor>
+    <Alunos>
+        <Aluno>
+            <Nome>Aluno 1</Nome>
+            <Email>123@isep.ipp.pt</Email>
+        </Aluno>
+        <Aluno>
+            <Nome>Aluno 2</Nome>
+            <Email>123@isep.ipp.pt</Email>
+        </Aluno>
+    </Alunos>
+</Turma>

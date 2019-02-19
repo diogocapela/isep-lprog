@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:include schemaLocation="SeguradoraSimpleTypes.xsd"/>
+
+     <!-- Imagem -->
+
+    <xs:complexType name="TImagem">
+        <xs:sequence>
+            <xs:element name="url" type="xs:string"/>
+            <xs:element name="altTag" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Preco -->
+
+    <xs:complexType name="TPreco">
+        <xs:sequence>
+            <xs:element name="currency" type="TCurrency"/>
+            <xs:element name="valor" type="xs:integer" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Barco -->
+
+    <xs:complexType name="TBarco">
+        <xs:sequence>
+            <xs:element name="nome" type="xs:string" />
+            <xs:element name="modelo" type="xs:string" />
+            <xs:element name="ano" type="TAno" />
+            <xs:element name="lotacao" type="TLotacao" />
+            <xs:element name="preco" type="TPreco" />
+            <xs:element name="categoria" type="xs:string" />
+            <xs:element name="marina" type="xs:string" />
+            <xs:element name="imagem" type="TImagem" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <!-- Marina -->
+
+    <xs:complexType name="TMarina">
+        <xs:sequence>
+            <xs:element name="nome" type="xs:string" minOccurs="1" maxOccurs="1" />
+            <xs:element name="descricao" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <!-- Seguro -->
+
+    <xs:complexType name="TSeguro">
+        <xs:sequence>
+            <xs:element name="tipo" type="TTipoSeguro" />
+            <xs:element name="descricao" type="xs:string" />
+            <xs:element name="preco" type="TPreco" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <!-- Ocorrencia -->
+
+    <xs:complexType name="TOcorrencia">
+        <xs:sequence>
+            <xs:element name="idBarco" type="xs:integer" minOccurs="1" maxOccurs="1" />
+            <xs:element name="tipoCatastrofe" type="TTipoSeguro" minOccurs="1" maxOccurs="1" />
+            <xs:element name="ano" type="xs:integer" minOccurs="1" maxOccurs="1" />
+            <xs:element name="mes" type="xs:integer" minOccurs="1" maxOccurs="1" />
+            <xs:element name="dia" type="xs:integer" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Ocorrencias -->
+
+    <xs:complexType name="TOcorrencias">
+        <xs:sequence>
+            <xs:element name="ocorrencia" type="TOcorrencia" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Carteira Seguro -->
+
+    <xs:complexType name="TCarteiraSeguro">
+        <xs:sequence>
+            <xs:element name="idSeguro" type="xs:integer" minOccurs="1" maxOccurs="1" />
+            <xs:element name="idBarco" type="xs:integer" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Carteira Seguros -->
+
+    <xs:complexType name="TCarteiraSeguros">
+        <xs:sequence>
+            <xs:element name="carteiraSeguro" type="TCarteiraSeguro" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Cliente -->
+
+    <xs:complexType name="TCliente">
+        <xs:sequence>
+            <xs:element name="nome" type="xs:string" />
+            <xs:element name="email" type="xs:string" />
+            <xs:element name="telefone" type="TTelefone" />
+            <xs:element name="idade" type="xs:integer" />
+            <xs:element name="carteiraSeguros" type="TCarteiraSeguros" minOccurs="1" maxOccurs="1" />
+            <xs:element name="ocorrencias" type="TOcorrencias" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <!-- Barcos -->
+
+    <xs:complexType name="TBarcos">
+        <xs:sequence>
+            <xs:element name="barco" type="TBarco" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Marinas -->
+
+    <xs:complexType name="TMarinas">
+        <xs:sequence>
+            <xs:element name="marina" type="TMarina" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Seguros -->
+
+    <xs:complexType name="TSeguros">
+        <xs:sequence>
+            <xs:element name="seguro" type="TSeguro" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Clientes -->
+
+    <xs:complexType name="TClientes">
+        <xs:sequence>
+            <xs:element name="cliente" type="TCliente" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Seguradora -->
+
+    <xs:complexType name="TSeguradora">
+        <xs:sequence>
+            <xs:element name="nome"  minOccurs="1" maxOccurs="1" />
+            <xs:element name="barcos" type="TBarcos" minOccurs="1" maxOccurs="1" />
+            <xs:element name="marinas" type="TMarinas" minOccurs="1" maxOccurs="1" />
+            <xs:element name="seguros" type="TSeguros" minOccurs="1" maxOccurs="1" />
+            <xs:element name="clientes" type="TClientes" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+    </xs:complexType>
+
+
+
+
+    <xs:element name="seguradora" type="TSeguradora"/>
+
+</xs:schema>

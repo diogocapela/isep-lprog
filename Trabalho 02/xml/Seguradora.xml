@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seguradora xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <nome>Boat Security Insurance, Ltd</nome>
+    <barcos>
+        <barco id="1">
+            <nome>Atlantis II</nome>
+            <modelo>Gobbi Atlantis 47</modelo>
+            <ano>2002</ano>
+            <lotacao>10</lotacao>
+            <preco>
+                <currency>EUR</currency>
+                <valor>21000</valor>
+            </preco>
+            <categoria>Sailing</categoria>
+            <marina>Vilamoura</marina>
+            <imagem>
+                <url>https://upload.wikimedia.org/wikipedia/commons/d/d9/Motorboat_at_Kankaria_lake.JPG</url>
+                <altTag>Imagem 1</altTag>
+            </imagem>
+        </barco>
+        <barco id="2">
+            <nome>ISEP</nome>
+            <modelo>Master race</modelo>
+            <ano>1990</ano>
+            <lotacao>8</lotacao>
+            <preco>
+                <currency>USD</currency>
+                <valor>12000</valor>
+            </preco>
+            <categoria>Motor</categoria>
+            <marina>Freixo</marina>
+            <imagem>
+                <url>https://d1elspe5sgezyc.cloudfront.net/assets/v3/home/owners/power1-0ad9b4fec1eea01588b77f0948503152.jpg</url>
+                <altTag>Imagem 2</altTag>
+            </imagem>
+        </barco>
+
+        <barco id="3">
+            <nome>TRIMIX</nome>
+            <modelo>Yamaha</modelo>
+            <ano>2013</ano>
+            <lotacao>25</lotacao>
+            <preco>
+                <currency>USD</currency>
+                <valor>19000</valor>
+            </preco>
+            <categoria>Motor</categoria>
+            <marina>Freixo</marina>
+            <imagem>
+                <url>https://auto8.imgs.sapo.pt/0474/00000474/v/0020/002027020/1370x1053/Dynasty-180-104473810.jpg</url>
+                <altTag>Imagem 3</altTag>
+            </imagem>
+        </barco>
+
+
+        <barco id="4">
+            <nome>THAYADA</nome>
+            <modelo>J.S. El cano</modelo>
+            <ano>1999</ano>
+            <lotacao>9</lotacao>
+            <preco>
+                <currency>USD</currency>
+                <valor>8300</valor>
+            </preco>
+            <categoria>Motor</categoria>
+            <marina>Freixo</marina>
+            <imagem>
+                <url>https://auto8.imgs.sapo.pt/0917/00000917/v/0290/002077290/1370x1053/SEA-RAY-220-SD-94457559.jpg</url>
+                <altTag>Imagem 3</altTag>
+            </imagem>
+        </barco>
+
+
+
+        <barco id="5">
+            <nome>TAPAJOS</nome>
+            <modelo>Black pearl</modelo>
+            <ano>2008</ano>
+            <lotacao>4</lotacao>
+            <preco>
+                <currency>USD</currency>
+                <valor>9000</valor>
+            </preco>
+            <categoria>Motor</categoria>
+            <marina>Freixo</marina>
+            <imagem>
+                <url>https://vignette.wikia.nocookie.net/pirates/images/6/62/Black_Pearl_infobox.png/revision/latest?cb=20171110192901</url>
+                <altTag>Imagem 3</altTag>
+            </imagem>
+        </barco>
+
+
+
+        <barco id="6">
+            <nome>FERET</nome>
+            <modelo>Escuna comerciante</modelo>
+            <ano>2002</ano>
+            <lotacao>30</lotacao>
+            <preco>
+                <currency>USD</currency>
+                <valor>10000</valor>
+            </preco>
+            <categoria>Motor</categoria>
+            <marina>Freixo</marina>
+            <imagem>
+                <url>https://c.pxhere.com/photos/99/a3/sloop_angra_kings-499615.jpg!d</url>
+                <altTag>Escuna comerciante</altTag>
+            </imagem>
+        </barco>
+
+
+
+        <barco id="7">
+            <nome>STARFLY</nome>
+            <modelo>Caravel</modelo>
+            <ano>1992</ano>
+            <lotacao>12</lotacao>
+            <preco>
+                <currency>USD</currency>
+                <valor>12000</valor>
+            </preco>
+            <categoria>Motor</categoria>
+            <marina>Freixo</marina>
+            <imagem>
+                <url>https://www.turismodoalgarve.pt/upload_files/client_id_1/website_id_3/Caravela%20Boa%20Esperança/DSC06850.JPG</url>
+                <altTag>Caravel</altTag>
+            </imagem>
+        </barco>
+
+
+
+        <barco id="8">
+            <nome>ROSA DE SARON</nome>
+            <modelo>Cruise Critic</modelo>
+            <ano>2018</ano>
+            <lotacao>370</lotacao>
+            <preco>
+                <currency>USD</currency>
+                <valor>353829</valor>
+            </preco>
+            <categoria>Motor</categoria>
+            <marina>Freixo</marina>
+            <imagem>
+                <url>https://images.cruisecritic.com/image/7681/image_1000x_43.jpg</url>
+                <altTag>Cruise Critic</altTag>
+            </imagem>
+        </barco>
+
+
+
+        <barco id="9">
+            <nome>PAPUQ YA YA</nome>
+            <modelo>Dynasty</modelo>
+            <ano>1992</ano>
+            <lotacao>8</lotacao>
+            <preco>
+                <currency>USD</currency>
+                <valor>19000</valor>
+            </preco>
+            <categoria>Motor</categoria>
+            <marina>Freixo</marina>
+            <imagem>
+                <url>https://img.letgo.com/images/fb/79/e9/ba/fb79e9ba4acc870e612e9b38491d5870.jpg?impolicy=img_600</url>
+                <altTag>Dynasty</altTag>
+            </imagem>
+        </barco>
+
+
+
+        <barco id="10">
+            <nome>MARAMAR</nome>
+            <modelo>Kawasaki</modelo>
+            <ano>2019</ano>
+            <lotacao>2</lotacao>
+            <preco>
+                <currency>USD</currency>
+                <valor>23000</valor>
+            </preco>
+            <categoria>Motor</categoria>
+            <marina>Freixo</marina>
+            <imagem>
+                <url>https://www.nationalboatcovers.com/web/source/nbc/uploads/tinymce/files/manufacturerpage/images/kawaski.png</url>
+                <altTag>Kawasaki</altTag>
+            </imagem>
+        </barco>
+
+
+
+
+
+
+    </barcos>
+
+    <marinas>
+        <marina id="1">
+            <nome>Freixo</nome>
+            <descricao>Eu sou a marina do Freixo.</descricao>
+        </marina>
+        <marina id="2">
+            <nome>Vilamoura</nome>
+            <descricao>Eu sou a marina número 2.</descricao>
+        </marina>
+        <marina id="3">
+            <nome>Afurada</nome>
+            <descricao>Eu sou a marina da Afurada.</descricao>
+        </marina>
+    </marinas>
+
+    <seguros>
+        <seguro id="1">
+            <tipo>TEMPESTADE</tipo>
+            <descricao>Seguro contra tempestades.</descricao>
+            <preco>
+                <currency>EUR</currency>
+                <valor>500</valor>
+            </preco>
+        </seguro>
+        <seguro id="2">
+            <tipo>NAUFRAGIO</tipo>
+            <descricao>Seguro contra naufágios.</descricao>
+            <preco>
+                <currency>EUR</currency>
+                <valor>1000</valor>
+            </preco>
+        </seguro>
+        <seguro id="3">
+            <tipo>INCENDIO</tipo>
+            <descricao>Seguro contra incêndios.</descricao>
+            <preco>
+                <currency>EUR</currency>
+                <valor>2500</valor>
+            </preco>
+        </seguro>
+        <seguro id="4">
+            <tipo>ROUBO</tipo>
+            <descricao>Seguro contra roubos.</descricao>
+            <preco>
+                <currency>EUR</currency>
+                <valor>3500</valor>
+            </preco>
+        </seguro>
+        <seguro id="5">
+            <tipo>DANOS</tipo>
+            <descricao>Seguro contra danos.</descricao>
+            <preco>
+                <currency>EUR</currency>
+                <valor>550</valor>
+            </preco>
+        </seguro>
+        <seguro id="6">
+            <tipo>VANDALISMO</tipo>
+            <descricao>Seguro contra vandalos.</descricao>
+            <preco>
+                <currency>EUR</currency>
+                <valor>130</valor>
+            </preco>
+        </seguro>
+    </seguros>
+
+    <clientes>
+        <cliente id="1">
+            <nome>Diogo</nome>
+            <email>dasds@dasda.com</email>
+            <telefone>123123123</telefone>
+            <idade>28</idade>
+            <carteiraSeguros>
+                <carteiraSeguro>
+                    <idSeguro>1</idSeguro>
+                    <idBarco>2</idBarco>
+                </carteiraSeguro>
+                <carteiraSeguro>
+                    <idSeguro>3</idSeguro>
+                    <idBarco>1</idBarco>
+                </carteiraSeguro>
+                <carteiraSeguro>
+                    <idSeguro>5</idSeguro>
+                    <idBarco>6</idBarco>
+                </carteiraSeguro>
+            </carteiraSeguros>
+            <ocorrencias>
+                <ocorrencia>
+                    <idBarco>1</idBarco>
+                    <tipoCatastrofe>TEMPESTADE</tipoCatastrofe>
+                    <ano>2018</ano>
+                    <mes>5</mes>
+                    <dia>23</dia>
+                </ocorrencia>
+            </ocorrencias>
+        </cliente>
+        <cliente id="2">
+            <nome>Teresa</nome>
+            <email>pipocas@abelha.com</email>
+            <telefone>147147147</telefone>
+            <idade>36</idade>
+            <carteiraSeguros>
+                <carteiraSeguro>
+                    <idSeguro>1</idSeguro>
+                    <idBarco>1</idBarco>
+                </carteiraSeguro>
+                <carteiraSeguro>
+                    <idSeguro>2</idSeguro>
+                    <idBarco>1</idBarco>
+                </carteiraSeguro>
+                <carteiraSeguro>
+                    <idSeguro>3</idSeguro>
+                    <idBarco>1</idBarco>
+                </carteiraSeguro>
+            </carteiraSeguros>
+            <ocorrencias>
+
+            </ocorrencias>
+        </cliente>
+         <cliente id="3">
+            <nome>Vítor</nome>
+            <email>motas@toy.com</email>
+            <telefone>789488885</telefone>
+            <idade>23</idade>
+            <carteiraSeguros>
+                <carteiraSeguro>
+                    <idSeguro>1</idSeguro>
+                    <idBarco>3</idBarco>
+                </carteiraSeguro>
+                <carteiraSeguro>
+                    <idSeguro>2</idSeguro>
+                    <idBarco>3</idBarco>
+                </carteiraSeguro>
+                <carteiraSeguro>
+                    <idSeguro>3</idSeguro>
+                    <idBarco>3</idBarco>
+                </carteiraSeguro>
+            </carteiraSeguros>
+            <ocorrencias>
+                <ocorrencia>
+                    <idBarco>1</idBarco>
+                    <tipoCatastrofe>TEMPESTADE</tipoCatastrofe>
+                    <ano>2018</ano>
+                    <mes>5</mes>
+                    <dia>23</dia>
+                </ocorrencia>
+                <ocorrencia>
+                    <idBarco>1</idBarco>
+                    <tipoCatastrofe>TEMPESTADE</tipoCatastrofe>
+                    <ano>2019</ano>
+                    <mes>5</mes>
+                    <dia>23</dia>
+                </ocorrencia>
+                <ocorrencia>
+                    <idBarco>1</idBarco>
+                    <tipoCatastrofe>TEMPESTADE</tipoCatastrofe>
+                    <ano>2020</ano>
+                    <mes>5</mes>
+                    <dia>23</dia>
+                </ocorrencia>
+            </ocorrencias>
+        </cliente>
+
+
+    
+
+    </clientes>
+
+
+
+</seguradora>

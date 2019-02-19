@@ -1,0 +1,234 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <title>Relatório</title>
+      <style>
+                    .footer img {
+                        max-width: 100%;
+                    }
+                </style>
+   </head>
+   <body>
+      <div class="container">
+         <h1 style="color:blue;margin-left:30px;">
+            LPROG relatório de
+            Seguradora de Barcos</h1>
+         <h2>Grupo</h2>
+         <table border="1">
+            <tr bgcolor="#9acd32">
+               <th style="text-align:left">Nome</th>
+               <th style="text-align:left">Número</th>
+               <th style="text-align:left">Mail</th>
+            </tr>
+            <tr>
+               <td>Diogo Capela</td>
+               <td>1171316</td>
+               <td>1171316@isep.ipp.pt</td>
+            </tr>
+            <tr>
+               <td>Vítor Silva</td>
+               <td>1140825</td>
+               <td>1140825@isep.ipp.pt</td>
+            </tr>
+            <tr>
+               <td>Teresa Alpendurada</td>
+               <td>1170523</td>
+               <td>1170523@isep.ipp.pt</td>
+            </tr>
+         </table>
+         <h3>Introdução</h3><a> 
+            No âmbito da cadeira de Linguagens de Programação (LPROG) do 2º semestre
+            do 2º ano da Licenciatura em Engenharia Informática (LEI) foi entregue um 
+            enunciado cujo principal objectivo é utilizar tecnologias XML e seguir os
+            seguintes parâmetros:
+            <br></a><a>
+            -&gt;    Definir uma representação XML para um domínio específico<br></a><a>
+            -&gt;    Definir a sintaxe dessa linguagem através do respetivo XML Schema (XSD)<br></a><a>
+            -&gt;    Criar instâncias (documentos XML) e validá-las de acordo com o XSD<br></a><a>
+            -&gt;    Fazer transformações ao documento XML (para XML e HTML) usando XSLT e XPath
+            <br></a><a>      
+            <br></a><a>
+            O domínio especificado no enunciado é relativo a um Sistema de Gestão de Seguros
+            para o qual se pretende desenvolver e comercializar uma solução - InsureAgility -
+            dirigida
+            às empresas seguradoras, que permita gerir as carteiras de seguros dos seus clientes.
+            A referida solução deve permitir às seguradoras:
+            <br></a><a>
+            -&gt;  Obter os produtos (tipos de seguros) contratados por um cliente;<br></a><a>
+            -&gt;  Obter informação detalhada (coberturas, valor do prémio, vigência, …) de 
+            um produto contratado por um dado cliente;<br></a><a>
+            -&gt;  Sugerir alteração (agravamento/atenuação) do prémio (custo anual) do 
+            seguro em função do número e do tipo de participações (casos) ocorridos
+            no ano anterior;<br></a><a>
+            -&gt;  Obter um resumo de todos os produtos contratados (apólices) cujo prazo de 
+            vigência termina num dado mês de um dado ano;<br></a><a>
+            <br></a><h4>Análise</h4><a>
+            Para dar resposta a este enunciado o domínio escolhido, dentro da área de gestão de
+            seguros, foi um Sistema de Gestão de Seguros de Barcos. Cada barco pode ter várias
+            
+            coberturas e clientes podem ter vários barcos.
+            <br></a><a> 
+            Ao longo deste documento iremos analisar a abordagem levada a cabo pelo grupo e as
+            
+            soluções encontradas para responder da melhor forma a todos os requisitos lançados.
+            <br></a><a> 
+            O domínio escolhido pelo grupo foi um Sistema de Gestão de Seguros de Barcos. Neste
+            
+            sistema incluiram-se:
+            <br></a><a>
+            -&gt;  Carteirasde Seguros<br></a><a>
+            -&gt;  Seguros<br></a><a>
+            -&gt;  Ocorrencias<br></a><a>
+            -&gt;  Clientes<br></a><a>
+            -&gt;  Barcos<br></a><a>
+            -&gt;  Marinas<br></a><a>
+            <br></a><a> Neste trabalho começou-se por criar um ficheiro XML que contém a base de dados.<br></a><a> 
+            São definidos uma série de barcos com elementos e atributos definidos, como por exemplo:<br></a><a>
+            -&gt;  id, modelo, a lotação, ano de fabrico, preço, entre outros.
+            <br></a><a><br></a><a>
+            Contém também uma série de marinas onde os mesmos barcos estão atracados. Esta parte
+            é 
+            importante para ser entendido da parte da seguradora que tipo de riscos tem que considerar.
+            <br></a><a>  Por fim uma série de clientes com os respetivos dados.<br></a><h4>Linguagem</h4><a>
+            O XML foi linguagem utilizada no desenvolvimento deste trabalho.
+            XML (Extensible Markup Language) é uma recomendação da W3C para gerar linguagens de
+            marcação
+            para necessidades especiais. É um dos subtipos da SGML (acrônimo de Standard Generalized
+            Markup
+            Language ou Linguagem Padronizada de Marcação Genérica) capaz de descrever diversos
+            tipos de dados.
+            Uma das principais vantagens de utilizar esta linguagem é a facilidade de compartilhamento
+            de
+            informações através da internet.[1] 
+            <br></a><a>
+            Em meados da década de 1990, o World Wide Web Consortium (W3C) começou a trabalhar
+            em uma linguagem
+            de marcação que combinasse a flexibilidade da SGML com a simplicidade da HTML. O principal
+            objectivo
+            era criar uma linguagem que pudesse ser lida por software, e integrar-se com as demais
+            linguagens.    
+            <br></a><a> Características da linguagem:<br></a><a> 
+            -&gt;  Separação do conteúdo da formatação<br></a><a>
+            -&gt;  Simplicidade e legibilidade, tanto para humanos quanto para computadores<br></a><a>
+            -&gt;  Possibilidade de criação de tags sem limitação<br></a><a>
+            -&gt;  Criação de arquivos para validação de estrutura (chamados DTDs)<br></a><a>
+            -&gt;  Interligação de bancos de dados distintos<br></a><a>
+            -&gt;  Concentração na estrutura da informação, e não na sua aparência<br></a><a>
+            <br></a><a>
+            O XML é um formato para a criação de documentos com dados organizados de forma hierárquica,
+            como
+            se vê, frequentemente, em documentos de texto formatados, imagens vetoriais ou bancos
+            de dados.
+            Pela sua portabilidade, já que é um formato que não depende das plataformas de hardware
+            ou de
+            software, um banco de dados pode, através de uma aplicação, escrever em um arquivo
+            XML, e um
+            outro banco distinto pode ler então estes mesmos dados.
+            <br></a><a>
+            Para validar os documentos XML foi utilizada a linguagem XML Schema. XML Schema é
+            uma linguagem
+            baseada no formato XML para definição de regras de validação ("esquemas") em documentos
+            no formato XML.
+            Foi a primeira linguagem de esquema para XML a obter o status de recomendação por
+            parte do W3C.
+            Esta linguagem é uma alternativa ao DTD, cuja sintaxe não é baseada no formato XML.
+            Um arquivo
+            contendo as definições na linguagem XML Schema é chamado de XSD (XML Schema Definition),
+            este
+            descreve a estrutura de um documento XML.[2]
+            <br></a><a> Neste trabalho encontra-se este tipo de ficheiros em Relatorio.xsd ou Seguradora.xsd.<br></a><a> Existem mais ficheiros xsd para os tipos complexos e simples.<br></a><a> Um exemplo para um tipo complexo é o TBarco. É um tipo que contém outros atributos
+            e elementos para o definir.<br></a><a>
+            É natural que certos atributos ou elementos estejam como por exemplo o xs:string (tipo
+            string) 
+            definido pelo http://www.w3.org/2001/XMLSchema (v=1.0)
+            <br></a><h4>Transformações</h4><a> Para poder transformar o documento XML foi utilizada ainda outra linguagem, o XSL
+            Transformations,
+            ou XSLT (eXtensible Stylesheet Language for Transformation - uma linguagem extensível
+            para folhas de
+            estilo de transformações), é uma linguagem de marcação XML usada para criar documentos
+            XSL que, por 
+            sua vez, definem a apresentação dos documentos XML nos browsers e outros aplicativos
+            que a suportem.
+            É importante observar que o documento XSL não altera o documento XML original, ou
+            seja, não cria outro 
+            documento. Neste sentido, o documento XSLT atua como as folhas de estilos CSS: apenas
+            determina como o
+            browser apresenta o documento XML ao qual ele está associado ou anexado (de uma forma
+            bem parecida à
+            usada para associar uma folha de estilos CSS a um documento (X)HTML).[3]
+            O browser recebe o documento XML original, na íntegra, como ele foi criado. E apresenta-o
+            como o
+            documento XSL determina.  Mas há uma diferença importante entre XSLT e CSS: o documento
+            XSL pode 
+            adicionar conteúdo à apresentação do documento XML no browser, e também pode esconder
+            conteúdo do XML
+            apresentado no browser.
+            Portanto, XSLT possibilita transformações mais potentes do que as folhas de estilo
+            CSS.
+            <br></a><a> 
+            As transformações foi utilizado a versão 1.0 XSLT ( http://www.w3.org/1999/XSL/Transform
+            ) e a versão
+            2.0 XSLT.
+            <br></a><a> 
+            Foi utilizado xsl:value-of para obter dados do element, for-each para manipular listas
+            de elementos, 
+            attributes para definir atributos nas tags HTML.
+            <br></a><a> 
+            No que toca aa seleções (select="path/to/selectedlement") foi usado no presente relatório
+            XPath, 
+            para selecionar nodes pelo rootnode/path/to/node.
+            <br></a><a> Para a seguradora (xml2html) foi usado XPath // para selecionar o primeiro node que
+            dêm math.<br></a><a> 
+            De forma a implentar funções lógicas como, por exemplo, atenuar ou agravar o seguro
+            a um cliente optámos
+            por aplicar a seguintes regras na transformação do documento XML da Seguradora no
+            documento HTML da Seguradora:
+            <br></a><a>
+            -&gt; classificar um cliente com base no número de ocorrências declaradas:<br></a><a>
+            -&gt;  "CLIENTE BOM", se forem detectadas 0 ocorrências;<br></a><a>
+            -&gt;  "CLIENTE DUVIDOSO", se for detectada 1 ocorrência;<br></a><a>
+            -&gt;  "CLIENTE DE RISCO", se forem detectadas 2 ou mais ocorrências.<br></a><a>
+            <br></a><a> Nas restantes transformações lógicas foram usadas essencialmente somatórios como,
+            por exemplo, na transformação 
+            do documento XML da Seguradora no documento TXT da Seguradora de forma a quantificar
+            o numeros de ocorrências
+            para cada cliente.
+            <br></a><h3>Conclusão</h3><a> Relativamente aos objectivos propostos consideramos ter cumprido todos os requisitos.
+            Uma vez que a definição  
+            das regras do negócio ficaram a nosso cargo sabíamos de antemão que a complexidade
+            alcançada iria variar consoante os
+            resultados que irámos obtendo. Como o nosso principal foco foi utilizar de forma abrangente
+            todas estas linguagens
+            sabemos que o negócio poderia ter sido alvo de maior atenção da nossa parte, mas mesmo
+            assim consideramos que este
+            foi um óptimo desafio ao qual respondemos com sucesso. 
+            <br></a><h3>Referências</h3>
+         <p id="RefB_01"><span style="font-size: small;"><font size="2">XML definição
+                  ,
+                  </font><font size="2"><em>Wikipédia
+                     ,
+                     </em>
+                  &lt;
+                  2019-01-01</font><font size="2">&gt;.</font></span></p>
+         <p id="RefB_02"><span style="font-size: small;"><font size="2">XSD definição
+                  ,
+                  </font><font size="2"><em>Wikipédia
+                     ,
+                     </em>
+                  &lt;
+                  2019-01-01</font><font size="2">&gt;.</font></span></p>
+         <p id="RefB_03"><span style="font-size: small;"><font size="2">XSL definição
+                  ,
+                  </font><font size="2"><em>Wikipédia
+                     ,
+                     </em>
+                  &lt;
+                  2019-01-01</font><font size="2">&gt;.</font></span></p>
+         <h3>Anexos</h3>
+         <p><strong>Sem anexos<br></strong></p>
+         <div class="footer"><img alt="a description here" src="https://www.dei.isep.ipp.pt/images/topo_index.png"></div>
+      </div><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script></body>
+</html>

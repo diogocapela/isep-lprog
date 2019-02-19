@@ -1,0 +1,4 @@
+- flex -t file.lex > file.c
+- gcc -Wall file.c -lfl -o fich (Linux)
+- gcc -Wall file.c -ll -o fich (OSX or BSD)
+- ./fich < textfile.txt

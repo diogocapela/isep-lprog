@@ -1,0 +1,75 @@
+<xs:complexType name="Tpaises">
+    <xs:sequence>
+        <xs:element name="pais" type="Tpais" minOccurs="0" maxOccurs="32" />
+        <xs:unique>
+            <xs:selector xpath="Tpais" />
+            <xs:field xpath="sigla" />
+        </xs:unique>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Tpais">
+    <xs:attribute name="nome" type="Tnome" />
+    <xs:attribute name="sigla" type="Tsigla" />
+    <xs:attribute name="grupo" type="Tgrupo" />
+</xs:complexType>
+
+<xs:simpleType name="Tnome">
+    <xs:restiction base="xs:string">
+        <xs:maxLength value="11" />
+        <xs:pattern value="[A-Z][a-zA-Z]{0,10}" />
+    </xs:restiction>
+</xs:simpleType>
+
+<xs:simpleType name="Tsigla">
+    <xs:restiction base="xs:string">
+        <xs:minLength value="3" />
+        <xs:maxLength value="3" />
+        <xs:pattern value="[A-Z]{3}" />
+    </xs:restiction>
+</xs:simpleType>
+
+<xs:simpleType name="Tgurpo">
+    <xs:restiction base="xs:string">
+        <xs:pattern value="[A-Z]" />
+    </xs:restiction>
+</xs:simpleType>
+
+<!-- pergunta 2 -->
+
+<xs:complexType name="Tdados">
+    <xs:sequence>
+        <xs:element name="equipa" type="Tequipa" minOccurs="0" maxOccurs="32" />
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Tequipa">
+    <xs:sequence>
+        <xs:element name="pontos" type="Tpontos" minOccurs="1" maxOccurs="1" />
+        <xs:element name="DG" type="xs:integer" minOccurs="1" maxOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="sigla" ref="Tsigla" use="required" />
+</xs:complexType>
+
+<xs:simpleType name="Tpontos">
+    <xs:restriction base="xs:integer">
+        <xs:pattern value="[0-9]+" />
+    </xs:restriction>
+</xs:simpleType>
+
+<!-- xslt -->
+
+<xsl:for-each select="//dados/equipa">
+    <xsl:sort select="pontos"/>
+    <xsl:sort select="DG"/>
+    <xsl:variable name="total" select="count()"/>
+    <xsl:if test="$total <= position()">
+        <tr>
+            <td><xsl:value-of select="position()" /></td>
+            <td><xsl:value-of select="{//paises/pais[@sigla=@sigla]}" /></td>
+            <td><xsl:value-of select="pontos" /></td>
+            <td><xsl:value-of select="DG" /></td>
+        </tr>
+    </xsl:if>
+</xsl:for-each>
+

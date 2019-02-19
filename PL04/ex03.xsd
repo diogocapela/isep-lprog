@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    
+    <xs:element name="ListaTarefas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Tarefa" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Descricao" type="xs:string"/>
+                            <xs:element name="Empregado" type="Tempregado" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="Tempregado">
+        <xs:sequence>
+            <xs:element name="nome" type="xs:string"/>
+            <xs:element name="anosempresa" type="Tanos"/>
+            <xs:element name="departamento" type="TDep"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="TDep">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Oficina de Montagem"/>
+            <xs:enumeration value="Oficina de Pintura"/>
+            <xs:enumeration value="Chaparia"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Tanos">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="20"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema> 

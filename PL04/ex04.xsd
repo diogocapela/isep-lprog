@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="ex04.xml">
+
+
+
+    <xs:element name="toptracks">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="track" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="artist">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="mbid" type="xs:string" />
+                                        <xs:element name="url" type="xs:string" />
+                                    </xs:sequence>
+                                    <xs:attribute name="name" type="xs:string" />
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="url" type="xs:string" />
+                            <xs:element name="thumbnail" type="xs:string" />
+                            <xs:element name="image" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="name" type="xs:string" />
+                        <xs:attribute name="count" type="xs:int" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="place" type="xs:string" />
+        </xs:complexType>
+    </xs:element>
+
+
+
+
+</xs:schema> 
+
+
+

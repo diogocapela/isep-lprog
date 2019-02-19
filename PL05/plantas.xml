@@ -1,0 +1,254 @@
+<Catalogo>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Bloodroot</NomeComum>
+        <NomeBotanico>Sanguinaria canadensis</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>2.44</Preco>
+        <Disponibilidade>031599</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Columbine</NomeComum>
+        <NomeBotanico>Aquilegia canadensis</NomeBotanico>
+        <Zona>3</Zona>
+        <Preco>9.37</Preco>
+        <Disponibilidade>030699</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sol">
+        <NomeComum>Marsh Marigold</NomeComum>
+        <NomeBotanico>Caltha palustris</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>6.81</Preco>
+        <Disponibilidade>051799</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Cowslip</NomeComum>
+        <NomeBotanico>Caltha palustris</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>9.90</Preco>
+        <Disponibilidade>030699</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Dutchman's-Breeches</NomeComum>
+        <NomeBotanico>Diecentra cucullaria</NomeBotanico>
+        <Zona>3</Zona>
+        <Preco>6.44</Preco>
+        <Disponibilidade>012099</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Ginger, Wild</NomeComum>
+        <NomeBotanico>Asarum canadense</NomeBotanico>
+        <Zona>3</Zona>
+        <Preco>9.03</Preco>
+        <Disponibilidade>041899</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Hepatica</NomeComum>
+        <NomeBotanico>Hepatica americana</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>4.45</Preco>
+        <Disponibilidade>012699</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Liverleaf</NomeComum>
+        <NomeBotanico>Hepatica americana</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>3.99</Preco>
+        <Disponibilidade>010299</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Jack-In-The-Pulpit</NomeComum>
+        <NomeBotanico>Arisaema triphyllum</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>3.23</Preco>
+        <Disponibilidade>020199</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Mayapple</NomeComum>
+        <NomeBotanico>Podophyllum peltatum</NomeBotanico>
+        <Zona>3</Zona>
+        <Preco>2.98</Preco>
+        <Disponibilidade>060599</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sol ou Sombra">
+        <NomeComum>Phlox, Woodland</NomeComum>
+        <NomeBotanico>Phlox divaricata</NomeBotanico>
+        <Zona>3</Zona>
+        <Preco>2.80</Preco>
+        <Disponibilidade>012299</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sol ou Sombra">
+        <NomeComum>Phlox, Blue</NomeComum>
+        <NomeBotanico>Phlox divaricata</NomeBotanico>
+        <Zona>3</Zona>
+        <Preco>5.59</Preco>
+        <Disponibilidade>021699</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Spring-Beauty</NomeComum>
+        <NomeBotanico>Claytonia Virginica</NomeBotanico>
+        <Zona>7</Zona>
+        <Preco>6.59</Preco>
+        <Disponibilidade>020199</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sol ou Sombra">
+        <NomeComum>Trillium</NomeComum>
+        <NomeBotanico>Trillium grandiflorum</NomeBotanico>
+        <Zona>5</Zona>
+        <Preco>3.90</Preco>
+        <Disponibilidade>042999</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sol ou Sombra">
+        <NomeComum>Wake Robin</NomeComum>
+        <NomeBotanico>Trillium grandiflorum</NomeBotanico>
+        <Zona>5</Zona>
+        <Preco>3.20</Preco>
+        <Disponibilidade>022199</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Violet, Dog-Tooth</NomeComum>
+        <NomeBotanico>Erythronium americanum</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>9.04</Preco>
+        <Disponibilidade>020199</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Trout Lily</NomeComum>
+        <NomeBotanico>Erythronium americanum</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>6.94</Preco>
+        <Disponibilidade>032499</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Adder's-Tongue</NomeComum>
+        <NomeBotanico>Erythronium americanum</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>9.58</Preco>
+        <Disponibilidade>041399</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Anemone</NomeComum>
+        <NomeBotanico>Anemone blanda</NomeBotanico>
+        <Zona>6</Zona>
+        <Preco>8.86</Preco>
+        <Disponibilidade>122698</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Grecian Windflower</NomeComum>
+        <NomeBotanico>Anemone blanda</NomeBotanico>
+        <Zona>6</Zona>
+        <Preco>9.16</Preco>
+        <Disponibilidade>071099</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Bee Balm</NomeComum>
+        <NomeBotanico>Monarda didyma</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>4.59</Preco>
+        <Disponibilidade>050399</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Bergamont</NomeComum>
+        <NomeBotanico>Monarda didyma</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>7.16</Preco>
+        <Disponibilidade>042799</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sol">
+        <NomeComum>Black-Eyed Susan</NomeComum>
+        <NomeBotanico>Rudbeckia hirta</NomeBotanico>
+        <Zona>Annual</Zona>
+        <Preco>9.80</Preco>
+        <Disponibilidade>061899</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Buttercup</NomeComum>
+        <NomeBotanico>Ranunculus</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>2.57</Preco>
+        <Disponibilidade>061099</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Crowfoot</NomeComum>
+        <NomeBotanico>Ranunculus</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>9.34</Preco>
+        <Disponibilidade>040399</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sol">
+        <NomeComum>Butterfly Weed</NomeComum>
+        <NomeBotanico>Asclepias tuberosa</NomeBotanico>
+        <Zona>Annual</Zona>
+        <Preco>2.78</Preco>
+        <Disponibilidade>063099</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Cinquefoil</NomeComum>
+        <NomeBotanico>Potentilla</NomeBotanico>
+        <Zona>Annual</Zona>
+        <Preco>7.06</Preco>
+        <Disponibilidade>052599</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sol">
+        <NomeComum>Primrose</NomeComum>
+        <NomeBotanico>Oenothera</NomeBotanico>
+        <Zona>3 - 5</Zona>
+        <Preco>6.56</Preco>
+        <Disponibilidade>013099</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sol ou Sombra">
+        <NomeComum>Gentian</NomeComum>
+        <NomeBotanico>Gentiana</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>7.81</Preco>
+        <Disponibilidade>051899</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sol ou Sombra">
+        <NomeComum>Blue Gentian</NomeComum>
+        <NomeBotanico>Gentiana</NomeBotanico>
+        <Zona>4</Zona>
+        <Preco>8.56</Preco>
+        <Disponibilidade>050299</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Jacob's Ladder</NomeComum>
+        <NomeBotanico>Polemonium caeruleum</NomeBotanico>
+        <Zona>Annual</Zona>
+        <Preco>9.26</Preco>
+        <Disponibilidade>022199</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Greek Valerian</NomeComum>
+        <NomeBotanico>Polemonium caeruleum</NomeBotanico>
+        <Zona>Annual</Zona>
+        <Preco>4.36</Preco>
+        <Disponibilidade>071499</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sol">
+        <NomeComum>California Poppy</NomeComum>
+        <NomeBotanico>Eschscholzia californica</NomeBotanico>
+        <Zona>Annual</Zona>
+        <Preco>7.89</Preco>
+        <Disponibilidade>032799</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Preferencialmente Sombra">
+        <NomeComum>Shooting Star</NomeComum>
+        <NomeBotanico>Dodecatheon</NomeBotanico>
+        <Zona>Annual</Zona>
+        <Preco>8.60</Preco>
+        <Disponibilidade>051399</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Snakeroot</NomeComum>
+        <NomeBotanico>Cimicifuga</NomeBotanico>
+        <Zona>Annual</Zona>
+        <Preco>5.63</Preco>
+        <Disponibilidade>071199</Disponibilidade>
+    </Planta>
+    <Planta NecessidadeLuz="Sombra">
+        <NomeComum>Cardinal Flower</NomeComum>
+        <NomeBotanico>Lobelia cardinalis</NomeBotanico>
+        <Zona>2</Zona>
+        <Preco>3.02</Preco>
+        <Disponibilidade>022299</Disponibilidade>
+    </Planta>
+</Catalogo>

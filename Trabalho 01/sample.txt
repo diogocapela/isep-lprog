@@ -1,0 +1,4 @@
+B0102 Bobi 2017/01/16 V8 1, massagem 12.50
+J1841 Jeco 19.2 2017/01/17 V8 2, Tosse 2, tosquia 22.50
+B2232 Bobi 2017/01/17 Tosse 1, Leptospirose 1, banho 30.00, massagem 12.50
+B1841 Jeco 13.2 2017/01/18 Leptospirose 1, Giardíase 2 
